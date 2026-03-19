@@ -8,8 +8,8 @@
         <Filename Value="Interprete.lpr"/>
         <IsPartOfProject Value="True"/>
         <TopLine Value="5"/>
-        <CursorPos X="5" Y="42"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="22" Y="12"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -18,13 +18,13 @@
         <UnitName Value="AnalizadorLexico"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="437"/>
-        <CursorPos X="63" Y="449"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="10"/>
+        <CursorPos X="74" Y="20"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="10">
+    <JumpHistory HistoryIndex="12">
       <Position>
         <Filename Value="Interprete.lpr"/>
         <Caret Line="30" Column="44" TopLine="11"/>
@@ -67,6 +67,14 @@
       <Position>
         <Filename Value="analizadorlexico.pas"/>
         <Caret Line="443" Column="24" TopLine="437"/>
+      </Position>
+      <Position>
+        <Filename Value="Interprete.lpr"/>
+        <Caret Line="11" Column="14" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="analizadorlexico.pas"/>
+        <Caret Line="353" Column="24" TopLine="347"/>
       </Position>
     </JumpHistory>
     <RunParams>
