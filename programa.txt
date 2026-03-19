@@ -1,0 +1,7 @@
+program prueba
+var x real
+begin
+  x := 3.14
+  if x while matrix
+  mi_variable_123
+end

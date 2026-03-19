@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Interprete.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="5"/>
+        <CursorPos X="5" Y="42"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="analizadorlexico.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AnalizadorLexico"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="437"/>
+        <CursorPos X="63" Y="449"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="10">
+      <Position>
+        <Filename Value="Interprete.lpr"/>
+        <Caret Line="30" Column="44" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="Interprete.lpr"/>
+        <Caret Line="28" Column="37" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="analizadorlexico.pas"/>
+        <Caret Line="109" Column="5" TopLine="91"/>
+      </Position>
+      <Position>
+        <Filename Value="analizadorlexico.pas"/>
+        <Caret Line="51" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="analizadorlexico.pas"/>
+        <Caret Line="401" Column="11" TopLine="378"/>
+      </Position>
+      <Position>
+        <Filename Value="analizadorlexico.pas"/>
+        <Caret Line="56" Column="28" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="analizadorlexico.pas"/>
+        <Caret Line="58" Column="17" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="analizadorlexico.pas"/>
+        <Caret Line="57" Column="35" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="Interprete.lpr"/>
+      </Position>
+      <Position>
+        <Filename Value="Interprete.lpr"/>
+        <Caret Line="22" Column="36" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="analizadorlexico.pas"/>
+        <Caret Line="443" Column="24" TopLine="437"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

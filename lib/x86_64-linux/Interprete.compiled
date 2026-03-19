@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1704440408"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq -Fi/home/ismu/Documents/ing_en_sistemas/año2/sintaxis/InterpretePascal/lib/x86_64-linux -Fu/home/ismu/Documents/ing_en_sistemas/año2/sintaxis/InterpretePascal/ -FU/home/ismu/Documents/ing_en_sistemas/año2/sintaxis/InterpretePascal/lib/x86_64-linux/ -FE/home/ismu/Documents/ing_en_sistemas/año2/sintaxis/InterpretePascal/ -o/home/ismu/Documents/ing_en_sistemas/año2/sintaxis/InterpretePascal/Interprete Interprete.lpr"/>
+</CONFIG>

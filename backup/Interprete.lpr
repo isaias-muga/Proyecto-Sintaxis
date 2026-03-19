@@ -1,0 +1,44 @@
+PROGRAM Interprete;
+
+{$mode objfpc}{$H+}
+
+USES
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Classes,
+  SysUtils,
+  TypInfo,
+  AnalizadorLexico; { <--- ¡Importante! }
+
+VAR
+  Token: TTipoToken;
+  Lexema: STRING;
+
+BEGIN
+  { Creamos un archivo de prueba temporal }
+  // NOTA: Puedes crear este archivo manualmente si prefieres.
+  // Por ahora usaremos un nombre fijo 'programa_prueba.txt'.
+
+  WriteLn('--- Iniciando Analizador Lexico ---');
+
+  Lexema := '';
+
+  TRY
+    InicializarLexico('programa.txt');
+
+    REPEAT
+      Token := ObtenerSiguienteToken(Lexema);
+      WriteLn('Token encontrado: ', GetEnumName(TypeInfo(TTipoToken), Ord(Token)));
+    UNTIL Token = TOKEN_EOF;
+
+    FinalizarLexico;
+
+  EXCEPT
+    on E: Exception DO
+      WriteLn('Error: ' + E.Message);
+  END;
+
+  WriteLn('--- Fin del Analisis ---');
+  ReadLn;
+END.
